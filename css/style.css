@@ -1,13 +1,32 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 50%;
+
+}
+
 .head {
     background: #fc0;
     height: 100px;
     position: relative;
     width: 100px;
+    
 }
 
 .face {
     font-family: 'courier new', serif;
     font-size: 2.5em;
+
     font-weight: bold;
     left: 50%;
     position: absolute;
